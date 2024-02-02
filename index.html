@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta data tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Title-->
+    <title>Mini IMDb Clone</title>
+    
+   <!--CSS and JavaScript-->
+   <link rel="stylesheet" type="text/css" href="style.css" />
+
+   <!--Google Fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+   <!--Font Awesome Icons-->
+   <script src="https://kit.fontawesome.com/d5635d350d.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <!--Header bar -->
+    <div class="header">
+        <div class="header-container">
+            <div>
+                <img alt ="logo" class ="logo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT68cbCIQbTOsH5TBotjZHaE3Z5J-0OG6I5GwWPoE7rqJ89k2LT4e_CvQfwPueM9U7W3ZY&usqp=CAU"/>
+            </div>
+            <h1 class="IMDB">IMDB CLONE</h1></div>
+            <div>
+             <h1 class="title">Search for Movies</h1>
+            </div>
+            <div class="header-link">
+                <span><a href="favorite.html">Favorite</a></span>
+            </div>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Type the movie name here..." class="searhc-bar" id="Input">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+    <!--Main Content Container-->
+    <div class="main">
+        <!--Search Items Display Section-->
+        <div class="fav-container">
+              <!-- Items are displayed here -->
+        </div>
+        <!--Watermark Area / Start Exploring Section-->
+        <div class="start-exploring">
+            <i class="fa-solid fa-film fa-6x"></i><br>
+            <span>Start Exploring!</span>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!--     
+    <<div class="container">
+        <h1 class="mt-4 mb-4">Mini IMDb Clone</h1>
+        <div id="searchContainer" class="mb-4">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search for a movie...">
+        </div>
+        <div id="movieList" class="row"></div>
+    </div>
+     Associated JS Files for functionality -->
+    <!--<script src="app.js"></script>> -->
+</body>
+</html>
