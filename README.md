@@ -1,3 +1,5 @@
+Hosted like :- https://magenta-longma-c382b7.netlify.app/
+
 ## Problem statement
 
 Create a mini IMDB clone app. Use ONLY vanilla javascript, no libraries or frameworks allowed for Javascript (you can use any css framework like Bootstrap).
